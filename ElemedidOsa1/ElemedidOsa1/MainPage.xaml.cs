@@ -85,114 +85,129 @@ namespace ElemedidOsa1
             img = new Image { Source = "nope" };
             gr.Children.Add(img, 0, 2);
 
-            entr = new Entry { Text = "Об уезде" };
+            entr = new Entry { Text = "Население" };
             gr.Children.Add(entr, 1, 2);
             Content = gr;
         }
 
         private void Picker2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(picker2.SelectedIndex == 0)
+            if (picker2.SelectedIndex == 0)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 0];
                 img.Source = "Harjumaa.png";
+                entr.Text = "605 029 чел. (2020)";
             }
-            else if(picker2.SelectedIndex == 1)
+            else if (picker2.SelectedIndex == 1)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 1];
                 img.Source = "Laanemaa.png";
+                entr.Text = "24 734 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 2)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 2];
                 img.Source = "Parnu.png";
+                entr.Text = "84 388 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 3)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 3];
                 img.Source = "Viljandimaa.png";
+                entr.Text = "48 604 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 4)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 4];
                 img.Source = "Jarvamaa.png";
+                entr.Text = "31 204 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 5)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 5];
                 img.Source = "Raplamaa.png";
+                entr.Text = "35 503 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 6)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 6];
-                img.Source = "Laane-Virumaa.png";
+                img.Source = "LaaneVirumaa.png";
+                entr.Text = "58 862 чел. (2020)";
             }
             else if (picker2.SelectedIndex == 7)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 7];
                 img.Source = "Jogevamaa.png";
+                entr.Text = "31 967 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 8)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 8];
-                img.Source = "Ida-Virumaa.png";
+                img.Source = "IdaVirumaa.png";
+                entr.Text = "134 259 чел. (2020)";
             }
             else if (picker2.SelectedIndex == 9)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 9];
                 img.Source = "Tartumaa.png";
+                entr.Text = "153 317 чел. (2020)";
             }
             else if (picker2.SelectedIndex == 10)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 10];
                 img.Source = "Polvamaa.png";
+                entr.Text = "28 026 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 11)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 11];
                 img.Source = "Valgamaa.png";
+                entr.Text = "31 068 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 12)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 12];
                 img.Source = "Vorumaa.png";
+                entr.Text = "34 178 чел. (2012)";
             }
             else if (picker2.SelectedIndex == 13)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 13];
                 img.Source = "Hiiumaa.png";
+                entr.Text = "9315 чел. (2020)";
             }
             else if (picker2.SelectedIndex == 14)
             {
                 editor2.Text = "Выбранная столица " + picker2.Items[picker2.SelectedIndex];
                 editor.Text = "Выбранная столица: " + picker.Items[picker.SelectedIndex = 14];
                 img.Source = "Saaremaa.png";
+                entr.Text = "31 835 чел. (2012)";
             }
         }
 
         private void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(picker.SelectedIndex == 0)
+            if (picker.SelectedIndex == 0)
             {
                 editor.Text = "Выбранный уезд: " + picker.Items[picker.SelectedIndex];
                 editor2.Text = "Выбранная столица: " + picker2.Items[picker2.SelectedIndex = 0];
                 img.Source = "Harjumaa.png";
             }
-            else if(picker.SelectedIndex == 1)
+            else if (picker.SelectedIndex == 1)
             {
                 editor.Text = "Выбранный уезд: " + picker.Items[picker.SelectedIndex];
                 editor2.Text = "Выбранная столица: " + picker2.Items[picker2.SelectedIndex = 1];

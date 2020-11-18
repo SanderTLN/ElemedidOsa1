@@ -101,9 +101,6 @@
     <AndroidResource Include="Resources\drawable\Hiiumaa.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Ida-Virumaa.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\Jarvamaa.png" />
   </ItemGroup>
   <ItemGroup>
@@ -137,7 +134,10 @@
     <AndroidResource Include="Resources\drawable\Vorumaa.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Laane-Virumaa.png" />
+    <AndroidResource Include="Resources\drawable\IdaVirumaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\LaaneVirumaa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
